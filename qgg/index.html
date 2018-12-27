@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>中国大学网站</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="header" class="construct clear-float">
+    <div class="logo fl">
+        大学<span>网</span>
+    </div>
+    <div class="navs">
+        <ul>
+            <li class="hasmenu active"><a href="index.html">网站首页</a></li>
+            <li class="hasmenu"><a href="./introduction/index.php?catalog=1">学校简介</a></li>
+            <li><a href="./major/major.php">专业简介</a></li>
+            <li class="hasmenu"><a href="#">志愿填报</a></li>
+            <li><a href="./forum/index.php">论坛</a></li>
+            <li><a href="./user/index.html">登录</a></li>
+        </ul>
+        <div class="menu-container">
+            <div class="menu-bg">
+                <div class="menu">
+                    <div class="scroll clear-float">
+                        <div class="plate fl">
+                            <div class="linker">
+                                <img src="image/09.jpg" alt="">
+                                <p>梦想</p>
+                            </div>
+                            <div class="linker">
+                                <img src="image/10.jpg" alt="">
+                                <p>青春</p>
+                            </div>
+                        </div>
+                        <div class="plate fl">
+                            <div class="linker">
+                                <p><a href="./introduction/show.php?id=1"><img src="image/t1.jpg" alt="">北京大学</a></p>
+                            </div>
+                            <div class="linker">
+                               <p><a href="./introduction/show.php?id=7"><img src="image/t2.jpg" alt="">北京大学</a></p>
+                            </div>
+                            <div class="linker">
+                               <p><a href="./introduction/show.php?id=8"><img src="image/t3.jpg" alt="">杭州电子科技大学</a></p>
+                            </div>
+                        </div>
+                        <div class="plate fl">
+                            <div class="linker">
+                                <img src="image/11.jpg" alt="">
+                                <p>志愿填报</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="search fr clear-float">
+        <form action="#">
+            <input type="text" class="fl" placeholder="输入搜索内容">
+            <button type="submit" class="fl"></button>
+        </form>
+
+    </div>
+</div>
+<div id="body">
+    <div class="banner">
+        <div class="image imageload" origin-data="image/04.jpg"></div>
+        <div class="image imageload" origin-data="image/05.jpg"></div>
+        <div class="image imageload" origin-data="image/07.jpg"></div>
+    </div>
+</div>
+
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script src="script/jquery.easing.min.js"></script>
+<script src="script/EasyBanner.js"></script>
+<script src="script/common.js"></script>
+<script>
+
+    var banner = new EasyBanner({
+        wrap : '#body .banner',
+        img : '.image',
+        speed : 6000,
+        interval : 10000
+    });
+</script>
+</body>
+</html>
